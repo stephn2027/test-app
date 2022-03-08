@@ -1,0 +1,21 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: baseline;
+}
+.main-page .title {
+  color: #4d4949;
+}
+.main-page button {
+  width: 70px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  background-color: #960d0d;
+  padding: 0.5rem;
+  margin: 0.6rem;
+  cursor: pointer;
+}

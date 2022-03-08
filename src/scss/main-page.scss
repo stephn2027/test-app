@@ -1,0 +1,10 @@
+@import '../Variables/Variables';
+.main-page{
+    @include flexContainer(center);
+    .title{
+        color:$gray-color;
+    }
+    button{
+        @include button-style;
+    }
+}

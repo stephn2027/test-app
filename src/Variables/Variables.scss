@@ -1,0 +1,25 @@
+$gray-color: rgb(77, 73, 73);
+$white-color: rgb(255, 255, 255);
+$red-color: rgb(150, 13, 13);
+$title-font: Arial, Helvetica, sans-serif;
+
+@mixin flexContainer($justify:column){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    align-items: baseline;
+}
+
+@mixin button-style {
+    width: 70px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: $white-color;
+    font-size: 25px;
+    background-color: $red-color;
+    padding: .5rem;
+    margin: .6rem;
+    cursor: pointer;
+
+}
